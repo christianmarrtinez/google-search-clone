@@ -66,3 +66,22 @@ body {
     background-color: #fff;
 }
 
+.nav-bar {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px 20px; 
+}
+
+.nav-bar a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #4285f4;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
