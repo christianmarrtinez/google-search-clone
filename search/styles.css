@@ -65,3 +65,34 @@ body {
     padding: 5px;
     background-color: #fff;
 }
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-bar a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #1a73e8;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
