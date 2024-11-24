@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: white; /* Light gray background */
+    background-color: white; 
 }
 
 .logo {
@@ -17,9 +17,9 @@ body {
 }
 
 .letter {
-    width: 50px; /* Adjust size as needed */
-    height: 50px; /* Keep dimensions square for simplicity */
-    margin: 0 5px; /* Add space between letters */
+    width: 50px; 
+    height: 50px;
+    margin: 0 5px; 
 }
 
 .search-form {
@@ -29,18 +29,16 @@ body {
 }
 
 .search-input {
-    width: 800px;
-    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
 }
 
 .search-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4285f4; /* Google blue */
+    background-color: #4285f4;
     color: white;
     border: none;
     border-radius: 5px;
@@ -49,4 +47,21 @@ body {
 
 .search-button:hover {
     background-color: #357ae8;
+}
+
+.search-image {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff;
 }
