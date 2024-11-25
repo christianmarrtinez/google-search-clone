@@ -18,21 +18,29 @@
         <form action="https://www.google.com/search" method="get" class="advanced-search-form">
             <div class="form-group">
                 <label for="all-words"><strong>all these words:</strong></label>
-                <input type="text" id="all-words" name="as_q" class="search-input">
+                <div class="adv-search-container">
+                    <input type="text" id="all-words" name="as_q" class="search-input">
+                </div>
             </div>
             <div class="form-group">
                 <label for="exact-phrase"><strong>this exact word or phrase:</strong></label>
+                <div class="adv-search-container">
                 <input type="text" id="exact-phrase" name="as_epq" class="search-input">
+                </div>
             </div>
             <div class="form-group">
                 <label for="any-words"><strong>any of these words:</strong></label>
+                <div class="adv-search-container">
                 <input type="text" id="any-words" name="as_oq" class="search-input">
+                </div>
             </div>
             <div class="form-group">
                 <label for="none-words"><strong>none of these words:</strong></label>
+                <div class="adv-search-container">
                 <input type="text" id="none-words" name="as_eq" class="search-input">
+                </div>
             </div>
-            <input type="submit" value="Advanced Search" class="search-button">
+            <input type="submit" value="Advanced Search" class="adv-search-button">
         </form>
     </body>
 </html>
