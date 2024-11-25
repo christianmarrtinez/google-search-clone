@@ -12,12 +12,27 @@
         <div class="advanced-header">
             <h1>Advanced Search</h1>
         </div>
-        <form action="https://google.com/search" class="search-form">
-            <div class="search-container">
-                <img src="images/search.png" alt="Search Icon" class="search-image">
-                <input type="text" name="q" placeholder="Search Google or type a URL" class="search-input">
-            </div>    
-            <input type="submit" value="Google Search" class="search-button">
+        <div class="find-pages-with-h">
+            <h3>Find pages with...</h3>
+        </div>
+        <form action="https://www.google.com/search" method="get" class="advanced-search-form">
+            <div class="form-group">
+                <label for="all-words"><strong>all these words:</strong></label>
+                <input type="text" id="all-words" name="as_q" class="search-input">
+            </div>
+            <div class="form-group">
+                <label for="exact-phrase"><strong>this exact word or phrase:</strong></label>
+                <input type="text" id="exact-phrase" name="as_epq" class="search-input">
+            </div>
+            <div class="form-group">
+                <label for="any-words"><strong>any of these words:</strong></label>
+                <input type="text" id="any-words" name="as_oq" class="search-input">
+            </div>
+            <div class="form-group">
+                <label for="none-words"><strong>none of these words:</strong></label>
+                <input type="text" id="none-words" name="as_eq" class="search-input">
+            </div>
+            <input type="submit" value="Advanced Search" class="search-button">
         </form>
     </body>
 </html>
